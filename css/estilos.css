@@ -1,0 +1,83 @@
+body{
+background-color:#E5CB9F;    
+font-family: Nunito;
+color: white;
+}
+
+header{
+text-align: center;
+font-size: 25px;
+}
+
+nav{
+width: 15%;
+float: left;
+}
+nav a{
+    background-color:#EEE4AB ;
+    border-radius: 15px 0 15px 0;
+    color: black;
+    text-decoration: none;
+    margin: 11px;
+    padding: 11px;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav a:hover{
+    background-color:rgba(243, 239, 216, 0.624);
+    color: whitesmoke;
+}
+
+section{
+    margin: 15px;
+    padding: 15px;
+float: right;
+width: 80%;    
+background-color: #00000059;
+border-radius: 10px;
+box-shadow: 1px, #00000059;
+text-align: center;
+}
+
+aside{
+float: right;
+border-radius: 10px;
+background-color: #00000059;
+border-radius: 10px;
+box-shadow: 1px, #00000059;
+width: 30%;
+padding: 10px;
+margin: 10px;
+}
+
+article{
+
+border-radius: 10px;
+}
+footer{
+clear: both;
+padding: 2px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    margin: 11px;
+    padding: 11px;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+footer a:hover{
+color:whitesmoke;
+background-color: #99896c9d;
+}
+article{
+    border-radius: 10px;
+background-color: #00000059;
+border-radius: 10px;
+box-shadow: 1px, #00000059;
+padding: 10px;
+margin: 10px;
+}
